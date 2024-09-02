@@ -1,0 +1,94 @@
+@media (max-width: 480px) {
+  body,
+  html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .nav-list {
+    display: none;
+    /* background-color: white; */
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero {
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+  }
+  .booking-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: auto;
+    padding-right: 10rem;
+    text-align: center;
+  }
+
+  .booking-content p {
+    width: 20rem;
+  }
+
+  .booking-content h2 {
+    width: 15rem;
+    margin-left: 2rem;
+  }
+
+  .reserve-btn {
+    margin-left: 2.5rem;
+    margin-top: 3px;
+    background-color: rgb(184, 108, 47);
+  }
+  .story-section {
+    width: 100%;
+    height: auto;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .interior-image {
+    width: 100%;
+    height: 14rem;
+    margin-top: 1rem;
+  }
+  .story-paragraph {
+    /* padding: 8px; */
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 50px;
+  }
+
+  .story {
+    background-color: blue;
+  }
+
+  .story-section {
+    /* border: 2px solid black; */
+    /* background-color: red; */
+  }
+  .story-paragraph > p {
+    /* width: 5px; */
+  }
+
+  .story-line {
+    margin-bottom: 6px;
+  }
+  .description {
+    background-color: pink;
+    margin-top: 15rem;
+    text-align: center;
+    /* padding-top: 10rem; */
+  }
+  .review-container {
+    height: 20rem;
+    background-color: orange;
+  }
+}
